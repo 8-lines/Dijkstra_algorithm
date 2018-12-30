@@ -154,11 +154,11 @@ int main()
 	int eps = 10;
 	int min = 4;
 	int z = 0;
-	while (z <= 15)
+	while (z <= 14)
 	{
 		// Генерируем размер графа и индекс стартовой вершины
 		//int size = (rand() % eps) + min;
-		int size = 6000 + z*1000;
+		int size = 10600 + z*100;
 		int start = rand() % size;
 
 		// Генерируем матрицу смежности
